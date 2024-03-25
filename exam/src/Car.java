@@ -5,7 +5,7 @@ public class Car {
     private String model = "Sedan";
     private int year = 2024;
 
-    public Car (String Make, String Model, int Year) {
+    public Car (String make, String model, int year) {
         this.make = make;
         this.model = model;
         this.year = year;
@@ -28,4 +28,13 @@ public class Car {
     public int getYear() {
         return year;
     }
+
+    public void getYear(int year) {
+        this.year = year;
+    }
+    public static void main(String[] args) {
+   Car Car = new Car("Singapura", "Sport",2022);
+   Car.displayDetail();
+    }
+   
 }
