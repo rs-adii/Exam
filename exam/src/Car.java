@@ -32,9 +32,10 @@ public class Car {
     public void getYear(int year) {
         this.year = year;
     }
-    public static void main(String[] args) {
-   Car Car = new Car("Singapura", "Sport",2022);
-   Car.displayDetail();
-    }
    
+    public static void main(String[] args) {
+        Car Car = new Car("Singapura", "Sport", 2022);
+        Car.displayDetail();
+    }
+
 }
