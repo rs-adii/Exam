@@ -43,7 +43,7 @@ public class Calculator2 {
         Scanner input4 = new Scanner(System.in);
         System.out.println("Masukkan bilangan yang anda inginkan: ");
         double num2Double = input4.nextDouble();
-
+        System.out.println("Masukkan bilangan yang anda inginkan: ");
         int differenceInt = subtract(num1Int, num2Int);
         System.out.println("Difference (int): " + differenceInt);
 
