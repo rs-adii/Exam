@@ -32,18 +32,21 @@ public class Calculator {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.println("Masukkan bilangan yang anda ingin di kurangi: ");
+        System.out.println("Masukkan bilangan integer yang anda ingin di inginkan: ");
         int num1Int = input.nextInt();
+
         Scanner input2 = new Scanner(System.in);
-        System.out.println("Masukkan bilangan yang anda ingin di kurangi: ");
+        System.out.println("Masukkan bilangan integer yang anda ingin di inginkan: ");
         int num2Int = input2.nextInt();
+
         Scanner input3 = new Scanner(System.in);
-        System.out.println("Masukkan bilangan yang anda inginkan: ");
+        System.out.println("Masukkan bilangan pecahan yang anda inginkan: ");
         double num1Double = input3.nextDouble();
+
         Scanner input4 = new Scanner(System.in);
-        System.out.println("Masukkan bilangan yang anda inginkan: ");
+        System.out.println("Masukkan bilangan pecahan yang anda inginkan: ");
         double num2Double = input4.nextDouble();
-        System.out.println("Masukkan bilangan yang anda inginkan: ");
+
         int differenceInt = subtract(num1Int, num2Int);
         System.out.println("Difference (int): " + differenceInt);
 
